@@ -29,7 +29,7 @@ public class mainApp {
 		 System.out.println("is it rainy?");
 		 inputRainy = input.nextLine();
 		 
-		 System.out.println();
+		 System.out.println(inputFancyFriday + " " + inputSunny + " " + inputRainy);
 		 
 		 
 
