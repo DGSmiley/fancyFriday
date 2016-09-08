@@ -29,6 +29,8 @@ public class mainApp {
 		 System.out.println("is it rainy?");
 		 inputRainy = input.nextLine();
 		 
+		 System.out.println();
+		 
 		 
 
 	}
