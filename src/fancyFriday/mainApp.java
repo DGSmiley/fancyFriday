@@ -20,8 +20,13 @@ public class mainApp {
 		boolean sunny = false;
 		boolean rainy = false;
 		
+		String inputContinue;
+		boolean userContinue= true;
+		
+		
 		Scanner input = new Scanner(System.in);
 		
+		while (userContinue = true){
 		System.out.println("Is it fancy friday?");
 		 inputFancyFriday = input.nextLine();
 		 
@@ -57,10 +62,15 @@ public class mainApp {
 			 System.out.println("tea shirt and jeans");
 		 }
 			 
-		 
-		 
-		 
-
+		 System.out.println("Continue?");
+		 inputContinue = input.nextLine();
+		 if(inputContinue.equals("yes")){
+			 userContinue = true;
+		 } else {
+			 userContinue = false;
+		 }
+	
 	}
 
+}
 }
